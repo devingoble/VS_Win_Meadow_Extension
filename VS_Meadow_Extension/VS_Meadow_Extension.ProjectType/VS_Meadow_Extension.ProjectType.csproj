@@ -61,6 +61,7 @@
     </Reference>
     <Reference Include="Meadow.CLI.Core, Version=0.8.0.0, Culture=neutral, PublicKeyToken=601e4acaff54b53a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\WildernessLabs.Meadow.CLI.Core.0.8.0\lib\net472\Meadow.CLI.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Build.16.0.461\lib\net472\Microsoft.Build.dll</HintPath>
@@ -363,6 +364,7 @@
   <ItemGroup>
     <Compile Include="Command2Package.cs" />
     <Compile Include="DeployProvider.cs" />
+    <Compile Include="Device.cs" />
     <Compile Include="Globals.cs" />
     <Compile Include="MeadowSettings.cs" />
     <Compile Include="MeadowWindow.cs" />
