@@ -4,6 +4,7 @@ using Meadow;
 using Meadow.Devices;
 using Meadow.Foundation;
 using Meadow.Foundation.Leds;
+using static Meadow.Peripherals.Leds.IRgbLed;
 
 namespace $safeprojectname$
 {
@@ -26,7 +27,7 @@ namespace $safeprojectname$
 				greenPwmPin: Device.Pins.OnboardLedGreen,
 				bluePwmPin: Device.Pins.OnboardLedBlue,
 				3.3f, 3.3f, 3.3f,
-				Meadow.Peripherals.Leds.IRgbLed.CommonType.CommonAnode);
+				CommonType.CommonAnode);
 		}
 
 		void CycleColors(int duration)
